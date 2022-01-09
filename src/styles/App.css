@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.app__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.app__header {
+  margin-bottom: 30px;
+}
+input {
+  max-width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  background: #f1f1f1;
+  padding: 10px;
+  outline: none;
+}
+.app__btn {
+  width: 80px;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.app__item {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  background: #f1f1f1;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+button {
+  cursor: pointer;
+}
